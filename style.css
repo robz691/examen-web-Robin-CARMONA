@@ -1,7 +1,28 @@
 header {
-    background-color: rgb(134, 132, 255);
+    background-color: rgb(250, 3, 3);
 }
 #main-title a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+}
+.text-article p:first-child {
+    font-weight: bold;
+}
+body{
+    margin: 100;
+    width: 900px; 
+    display: flex;
+    flex-direction: column;
+}
+.text-article {
+    margin: 20px 15px; 
+    padding: 20px 15px; 
+    border: 3px solid rgb(255, 0, 0);
+    text-align: left; 
+}
+section {
+    
+}
+footer {
+    font-style: italic;
 }
